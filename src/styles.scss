@@ -1,0 +1,135 @@
+/* You can add global styles to this file, and also import other style files */
+$main-color:#f44336;
+$main-text-color:#484848;
+$light-gray-color:#e9e9e9;
+
+.apartment{
+  color:#a72da3;
+}
+
+.condo{
+  color: #d68000;
+}
+
+.house{
+  color:#bf1818;
+}
+
+.apartmentbg{
+  background:#a72da3;
+}
+
+.condobg{
+  background: #d68000;
+}
+
+.housebg{
+  background:#bf1818;
+}
+
+.clickable{
+  cursor: pointer;
+}
+
+
+#rentalListing {
+    .title {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  
+  a {
+    &:focus, &:hover{
+      text-decoration: none;
+    }
+  }
+    /* SINGLE CARD STYLES*/
+    .bwm-card {
+      border: none;
+  
+  
+      .card-block {
+        padding-top: 8px;
+  
+  
+        .card-subtitle {
+          margin: 0;
+          font-weight: bolder;
+          font-size: 12px;
+          text-transform: uppercase;
+          
+        }
+  
+        .card-link{
+          display:inline-block;
+          
+          color: #fff;
+          margin-top: 5px;
+          padding: 7px 20px;
+          border-radius: 5px;
+        }
+  
+  
+        .card-title {
+          font-size: 19px;
+          margin: 3px 0;
+        }
+  
+  
+        .card-text {
+          font-size: 14px;
+          font-weight: 300;
+          color: #7e7e7e;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .bwm-form {
+    color: $main-text-color;
+  
+    form {
+      margin-bottom: 10px;
+    }
+  
+    .alert {
+      p {
+        margin: 0;
+      }
+    }
+  
+    h1 {
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    .image-container {
+      position: relative;
+  
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+    }
+  
+    label {
+      font-size: 12px;
+    }
+  
+    .form-text {
+      font-size: 13px;
+    }
+  
+    .catchphrase {
+      text-align: center;
+      font-size: 42px;
+      position: absolute;
+      color: #f1f1f1;
+      padding: 40px;
+      background-color: rgba(0,0,0, 0.5);
+      margin-top: 50px;
+      letter-spacing: 1px;
+    }
+  }
+  
